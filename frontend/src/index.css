@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: 'Inter', system-ui, sans-serif;
+    --bg-primary: #F4F4F4;
+    --bg-card: #ffffff;
+    --text-main: #1A1A1B;
+    --jh7-red: #E31E24;
+  }
+
+  .dark {
+    --bg-primary: #121212;
+    --bg-card: #1E1E1E;
+    --text-main: #F4F4F4;
+  }
+
+  body {
+    @apply transition-colors duration-300;
+    background-color: var(--bg-primary);
+    color: var(--text-main);
+  }
+}
+
+
+.main-content {
+  @apply min-h-screen flex flex-col items-center p-8;
+  margin-left: 16rem; 
+}
+
+.sigCanvas {
+  width: 100% !important;
+  height: 200px !important;
+  background-color: white;
+  border: 2px dashed #ccc;
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb {
+  background: #E31E24;
+  border-radius: 10px;
+}

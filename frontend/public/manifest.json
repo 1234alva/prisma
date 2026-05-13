@@ -1,0 +1,15 @@
+{
+  "short_name": "JH7SRL",
+  "name": "JH7 SRL Telecomunicaciones",
+  "icons": [
+    {
+      "src": "jh7_logo.png",
+      "type": "image/png",
+      "sizes": "192x192" 
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#E31E24",
+  "background_color": "#F4F4F4"
+}
